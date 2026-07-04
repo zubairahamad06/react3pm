@@ -31,7 +31,7 @@ export const Product = ({ cart, setCart }) => {
               <h3>{item.productname}</h3>
               <h4>{item.productprice}</h4>
             </div>
-            <button onClick={() => addtocart(item)}>Add to Cart</button>
+            <button onClick={() => addtocart(item)}>Add  Cart</button>
 
           </div>
         ))}
